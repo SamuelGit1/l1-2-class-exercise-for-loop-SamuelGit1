@@ -3,41 +3,91 @@
 Q1: 
 '''
 
-# TODO: Write your code here
+for i in range(1000001):
+    print(i)
+print("\n")
 
 ##################################################
 '''
 Q2:
 '''
 
-# TODO: Write your code here
+sum = 0
+for i in range(1000001):
+    sum += i
+print(sum)
+print("\n")
 
 ##################################################
 '''
 Q3:
 '''
 
-# TODO: Write your code here
+for i in range(2, 14, 2):
+    print(i, end=',')
+print("...\n")
 
 ##################################################
 '''
 Q4:
 '''
 
-# TODO: Write your code here
+for i in range(97, 79, -3):
+    print(i, end=',')
+print("...\n")
 
 ##################################################
 '''
 Q5:
 '''
 
-# TODO: Write your code here
+# a)
+for i in range(1, 11):
+    print(i ** 2, end=' ')
+print("\n")
+
+# b)
+square = 0
+for i in range(1, 11):
+    for j in range(i):
+        square += i
+    print(square, end=' ')
+    square = 0
+print("\n")
 
 ##################################################
 '''
 Q6:
 '''
 
-# TODO: Write your code here
+for i in range(1, 6):
+    print('*' * 5)
+print("\n")
+
+##################################################
+'''
+Q7:
+'''
+
+for i in range(1, 6):
+    print('*' * i)
+print("\n")
+
+##################################################
+'''
+Q8:
+'''
+
+for i in range(5, 0, -1):
+    print('*' * i)
+print("\n")
+
+##################################################
+'''
+Q9:
+'''
+
+for i in range(1, 6):
+    print(str(i) * i)
 
 ##################################################
